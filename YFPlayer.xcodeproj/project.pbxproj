@@ -13,6 +13,7 @@
 		E559615C2089BC3D00C4C231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E559615B2089BC3D00C4C231 /* Assets.xcassets */; };
 		E559615F2089BC3D00C4C231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E559615D2089BC3D00C4C231 /* LaunchScreen.storyboard */; };
 		E55961622089BC3D00C4C231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E55961612089BC3D00C4C231 /* main.m */; };
+		E559616C2089CCBB00C4C231 /* YFPlayerIJKPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E559616B2089CCBB00C4C231 /* YFPlayerIJKPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		E55961602089BC3D00C4C231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55961612089BC3D00C4C231 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E55961692089BEDC00C4C231 /* YFPlayerControlProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPlayerControlProtocol.h; sourceTree = "<group>"; };
+		E559616A2089CCBB00C4C231 /* YFPlayerIJKPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFPlayerIJKPlayerView.h; sourceTree = "<group>"; };
+		E559616B2089CCBB00C4C231 /* YFPlayerIJKPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFPlayerIJKPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				E55961692089BEDC00C4C231 /* YFPlayerControlProtocol.h */,
+				E559616A2089CCBB00C4C231 /* YFPlayerIJKPlayerView.h */,
+				E559616B2089CCBB00C4C231 /* YFPlayerIJKPlayerView.m */,
 			);
 			path = YFPlayer;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E559616C2089CCBB00C4C231 /* YFPlayerIJKPlayerView.m in Sources */,
 				E55961572089BC3800C4C231 /* ViewController.m in Sources */,
 				E55961622089BC3D00C4C231 /* main.m in Sources */,
 				E55961542089BC3800C4C231 /* AppDelegate.m in Sources */,
